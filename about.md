@@ -3,8 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
-![webjeda logo]({{site.baseurl}}/images/webjeda.svg)
 
-<div class="mt50"></div>
+Taken is a two column minimalist Jekyll theme.
 
-Webjeda cards is a Bootstrap based theme. Any Bootstrap element can be used in the theme. Read [Webjeda Blog](http://blog.webjeda.com){: target="_blank"} for jekyll tutorials. 
+Taken is based on [chapter tumblr theme.](http://theme-chapter.tumblr.com/)
+
+You can fork taken from [here.](https://github.com/vfalanis/taken)

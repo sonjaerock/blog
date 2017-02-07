@@ -1,38 +1,35 @@
-# Installation: 
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+# taken
 
-Watch my video on instlallation
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
+Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
 
-## How to delete old **gh-pages** branch?
-After forking the repository, click on **branches**.
+![Taken](https://github.com/vfalanis/taken/blob/master/Taken.png)
 
-![delete gh-pages branch](/images/delete-github-branch.png)
+## Updates
 
-Delete ``gh-pages`` branch.
-![delete gh-pages branch](/images/delete-github-branch-2.png)
+Note: There's a stable branch (v1.0) which includes the default taken theme.
+Master and gh-pages branch now include the latest changes:
 
-You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
-
-![create gh-pages branch](/images/create-gh-pages-branch.JPG)
-
-Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
-
-This process will host the theme as a **Project Page**. You can also download the files for local development. 
-
-Default theme will look like this
-
-![webjeda cards jekyll theme](/images/webjeda-cards-jekyll-theme-1.png)
-
-This theme is responsive.
-
-![webjeda cards responsive jekyll theme](/images/webjeda-cards-responsive-jekyll-theme-2.png)
+* Better responsive support ( sidebar collapse)
+* Fade in animations
 
 
+## Features
+* Flickr feed
+* Disqus
+* more ...
 
-# Development
-Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
+## Demo
+You can see a live demo of "taken" [here](http://vfalanis.github.io/taken)
 
+## Instructions
 
-# License
-MIT License
+1. Fork this repository
+2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/taken.git` 
+3. Run it.<br />`jekyll serve`
+4. Go to http://127.0.0.1:4000.
+
+## To do list:
+* Categories support
+* Add portfolio section
+* Flickr plugin animation and configuration
+* More...
