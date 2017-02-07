@@ -15,7 +15,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #000000;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -71,7 +71,7 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    background-image:url('../assets/img/placeholder-big.jpg');
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -296,6 +296,7 @@ pre {
   padding-top: 0;
 }
 .home{
+  background-color: white;
   padding-bottom: 5em;
 }
 .download {
